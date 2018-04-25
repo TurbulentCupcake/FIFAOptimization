@@ -1,0 +1,186 @@
+1. The team rating is calculated by average of attack, def and midfield
+2. The individual rating of each attribut is calculated by The  '
+
+POSITIONAL COEFFICIENTS
+
+Goalkeeper (GK)
+
+GK Diving 0.24
+GK Handling 0.22
+GK Positioning 0.22
+GK Reflex 0.22
+Reactions 0.06
+GK Kicking 0.06
+
+Sweeper (SW) – Although you cannot create a Sweeper in game or in the Creation Centre, by using the Edit Player trick (It’s at the bottom of the guide) I found that a stat coefficient exists for the position.
+
+Interceptions 0.20
+Standing Tackle 0.14
+Marking 0.12
+Sliding Tackle 0.12
+Heading 0.08
+Ball Control 0.07
+Short Pass 0.06
+Reactions 0.06
+Vision 0.06
+Long Pass 0.05
+Aggression 0.04
+
+Centre Backs (LCB/CB/RC
+
+Marking 0.15
+Standing Tackle 0.15
+Sliding Tackle 0.15
+Heading 0.10
+Strength 0.10
+Aggression 0.08
+Interceptions 0.08
+Short Pass 0.05
+Ball Control 0.05
+Reactions 0.05
+Jumping 0.04
+
+Side Backs (LB/R
+
+Sliding Tackle 0.13
+Standing Tackle 0.12
+Interceptions 0.12
+Marking 0.10
+Stamina 0.08
+Reactions 0.08
+Crossing 0.07
+Heading 0.07
+Ball Control 0.07
+Short Pass 0.06
+Sprint Speed 0.05
+Aggression 0.05
+
+Wing Backs (LWB/RW
+
+Standing Tackle 0.11
+Sliding Tackle 0.10
+Crossing 0.10
+Short Pass 0.10
+Ball Control 0.10
+Interceptions 0.10
+Marking 0.09
+Stamina 0.08
+Reactions 0.08
+Dribbling 0.07
+Sprint Speed 0.04
+Agility 0.03
+
+Defensive Midfielders (LDM/CDM/RDM)
+
+Short Pass 0.13
+Interceptions 0.13
+Long Pass 0.11
+Marking 0.10
+Standing Tackle 0.10
+Ball Control 0.09
+Reactions 0.09
+Vision 0.08
+Stamina 0.06
+Strength 0.06
+Aggression 0.05
+
+Central Midfielders (LCM/CM/RCM)
+
+Short Pass 0.15
+Long Pass 0.13
+Vision 0.12
+Ball Control 0.10
+Dribbling 0.09
+Reactions 0.08
+Interceptions 0.08
+Attack Positioning 0.08
+Standing Tackle 0.06
+Stamina 0.06
+Long Shots 0.05
+
+Side Midfielders (LM/RM)
+
+Crossing 0.14
+Dribbling 0.14
+Short Pass 0.12
+Ball Control 0.12
+Long Pass 0.08
+Vision 0.08
+Reactions 0.07
+Attack Positioning 0.07
+Stamina 0.05
+Acceleration 0.05
+Sprint Speed 0.05
+Agility 0.03
+
+Attacking Midfielders (LAM/CAM/RAM)
+
+Short Pass 0.16
+Vision 0.16
+Ball Control 0.13
+Attack Positioning 0.12
+Dribbling 0.11
+Reactions 0.08
+Long Shots 0.06
+Finishing 0.05
+Shot Power 0.05
+Acceleration 0.04
+Agility 0.04
+
+Wingers (LW/RW)
+
+Crossing 0.16
+Dribbling 0.16
+Ball Control 0.13
+Short Pass 0.10
+Attack Positioning 0.09
+Acceleration 0.06
+Sprint Speed 0.06
+Reactions 0.06
+Agility 0.05
+Vision 0.05
+Finishing 0.04
+Long Shots 0.04
+
+Centre and Side Forwards (LF/CF/RF).
+
+Finishing 0.12
+Attack Positioning 0.12
+Dribbling 0.11
+Ball Control 0.11
+Shot Power 0.10
+Long Shots 0.10
+Reactions 0.10
+Short Pass 0.06
+Heading 0.05
+Vision 0.05
+Acceleration 0.04
+Sprint Speed 0.04
+
+Strikers (LS/*/RS)
+
+Finishing 0.20
+Attack Positioning 0.12
+Heading 0.10
+Shot Power 0.10
+Reactions 0.10
+Dribbling 0.08
+Ball Control 0.08
+Volleys 0.05
+Long Shots 0.05
+Acceleration 0.05
+Sprint Speed 0.04
+Strength 0.03
+
+
+4. Our objective is to maximize team rating by maximizing attributes based on optimal team formation
+5. Once we have this, we must simulateously maximize for best possible team while minimizing costs
+6. We must also optimize the opposing team so that theoretically, both players are playing their best move.
+7. We must find a way to probabilistically determine a winner based on  
+    a. Player ratings
+    b. Player fitness
+    c.Player morale (overall during a season and probably during game too, i.e. if a team gets an early goal)
+    d. Team rating
+    e. The determination of players e.g. cup matches > league matches
+    f. The weather during the match
+    g. Home vs away is likely to be used as a variable also.
